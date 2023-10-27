@@ -1,4 +1,12 @@
 /* Base Styles */
+#background-media {
+  background-image: url(../images/bothcurrencies.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
@@ -50,7 +58,8 @@ label {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="password"] {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -70,7 +79,7 @@ input[type="email"] {
   margin: 0 auto; 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
   header {
     padding: 4rem 0;
   }
@@ -90,11 +99,12 @@ input[type="email"] {
   form {
     font-size: 1.5rem;
   }
+
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 720px) {
   main {
-    max-width: 1400px;
+    max-width: 720px;
     margin: 0 auto;
   }
   h1 {
