@@ -82,6 +82,11 @@ input[type="password"] {
 @media (min-width: 720px) {
   header {
     padding: 4rem 0;
+	background-image: url(../images/vbucks.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
   }
 
   h1 {
@@ -103,6 +108,14 @@ input[type="password"] {
 }
 
 @media (max-width: 720px) {
+  header {
+    padding: 4rem 0;
+	background-image: url(../images/robux.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+  }
   main {
     max-width: 720px;
     margin: 0 auto;
