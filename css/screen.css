@@ -46,6 +46,12 @@ h2 {
   color: #0077b6;
 }
 
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #423B39;
+}
+
 form {
   font-size: 1.2rem;
   margin-bottom: 2rem;
